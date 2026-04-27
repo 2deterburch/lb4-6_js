@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Фільмова база</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎬 Фільмова база</h1>
+
+<div class="controls">
+    <input type="text" id="searchInput" placeholder="Пошук за назвою...">
+    <button onclick="sortByName()">Сортувати A-Z</button>
+    <button onclick="sortByRating()">Сортувати за рейтингом</button>
+</div>
+
+<div id="moviesContainer"></div>
+
+<p id="error" class="error"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
